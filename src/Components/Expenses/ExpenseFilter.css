@@ -1,0 +1,26 @@
+.expenses-filter__control{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color:white;
+
+}
+.expense-filter__control select{
+    padding:0.8rem 1rem;
+    font:inherit;
+    margin-top: -0.6rem;
+}
+.expense-year__distirbution{
+    display:flex;
+    background-color: ivory;
+    align-items: center;
+    border-radius: 12px;
+    height:9rem;
+    margin-top: 2rem;
+}
+.expense-year__distirbution>div{
+    width:10%;
+}
+.expense-year__distirbution>div progress{
+    width:150%;
+}
